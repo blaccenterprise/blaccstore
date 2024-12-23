@@ -1,2 +1,2 @@
 # blaccstore
-complete connectioon
+complete connection
