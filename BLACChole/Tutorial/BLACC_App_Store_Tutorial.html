@@ -1,12 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<title>BLACKHOLE - Tutorial | Home Page</title>
+<title>BLACKHOLE</title>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="../../CSS/Format_Web.css">
-<link rel="stylesheet" href="../../CSS/blacc_body.css">
-<link rel="stylesheet" href="../../CSS/button.css">
+<link rel="stylesheet" href="../CSS/Format_Web.css">
+<link rel="stylesheet" href="../CSS/blacc_body.css">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         <style>
@@ -19,7 +18,7 @@
 			button {
 			    padding:10px;
 			    background-color:black;
-			    color: yellow;
+			    color: dodgerblue;
 			    border: 0px;
 			    cursor:pointer;
 			    border-radius: 5px;
@@ -41,13 +40,9 @@
 			}
 			.show {
 			    display:block;
-			}
-			       
-img {
-    border-radius: 50%;
-}
+
 div1 {
-  border-radius: 50% solid yellow;
+  border-radius: 50% solid dodgerblue;
   animation-name: example;
   animation-duration: 10s;
   animation-iteration-count: infinite;
@@ -56,7 +51,7 @@ div1 {
 
 }
 div1:hover{
-  border-radius: 50% solid yellow;
+  border-radius: 50% solid dodgerblue;
   animation-name: example;
   animation-duration: 10s;
   animation-iteration-count: infinite;
@@ -158,10 +153,10 @@ var Artyom = (function () {
             lang: 'Google UK English Female',
             recognizing: false,
             continuous: false,
-            speed: 1,
+            speed: .025,
             volume: 1,
             listen: false,
-            mode: "normal",
+            mode: "slow",
             debug: false,
             helpers: {
                 redirectRecognizedTextOutput: null,
@@ -1595,46 +1590,6 @@ h1 {
 <body>
 
 <!-- Navbar -->
-<div class="BLACC-top">
-  <div class="BLACC-bar BLACC-black BLACC-card BLACC-hover-black" style="color: black;">
-    <a class="BLACC-bar-item BLACC-button-black BLACC-padding-large BLACC-hide-medium BLACC-hide-large BLACC-right" href="javascript:void(0)" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
-    <p class="BLACC-bar-item BLACC-padding-large" style="color: dodgerwhite; font-size: 18px; font-family: Georgia;">Tutorials</p>
-    <a href="../Website_Template_BLACC_Corporation_Computer_Science_Project_BLACChole.html" class="BLACC-bar-item BLACC-hover-dodgerwhite BLACC-button BLACC-padding-large BLACC-hide-small BLACC-black">HOME</a>
-    <a href="../../BLACChole/Audio/BLACChole_Audio_Home.html" class="BLACC-bar-item BLACC-hover-dodgerwhite BLACC-button BLACC-padding-large BLACC-hide-small BLACC-right BLACC-black">AUDIO</a>
-    <a href="../../BLACChole/Videos/BLACChole_Videos_Home.html" class="BLACC-bar-item BLACC-hover-dodgerwhite BLACC-button BLACC-padding-large BLACC-hide-small BLACC-black BLACC-right">VIDEOS</a>
-    <div class="BLACC-dropdown-hover BLACC-hide-small BLACC-right BLACC-black">
-      <button class="BLACC-padding-large BLACC-button BLACC-hover-dodgerwhite" title="More">MORE <i class="fa fa-caret-down"></i></button>     
-      <div class="BLACC-dropdown-content BLACC-bar-block BLACC-card-4 ">
-        <a href="../../BLACChole/Categories/BLACChole_Categories_Home.html" class="BLACC-bar-item BLACC-button BLACC-black BLACC-hover-dodgerwhite">CATEGORIES</a>
-        <a href="../../BLACChole/Music/BLACChole_Music_Home.html" class="BLACC-bar-item BLACC-button BLACC-black BLACC-hover-dodgerwhite">MUSIC</a>
-        <a href="../../BLACChole/Movies/BLACChole_Movies_Home.html" class="BLACC-bar-item BLACC-button BLACC-black BLACC-hover-dodgerwhite">MOVIES</a>
-        <a href="../../BLACChole/Upload/BLACChole_Upload_Home.html" class="BLACC-bar-item BLACC-button BLACC-black BLACC-hover-dodgerwhite">UPLOAD</a>
-      </div>
-    </div>
-  </div>
-</div>
-
-
-
-
-
-<div><button  onclick="runSpeechRecognition()">
-</div>
-<br><br>
-<br>
-<inputc><textarea id="output" type="text" style="width:300px; height: 50px;" class="BLACC-right"></textarea>
-<br>
-<br>
-<br>
-<br>
-<button onclick="myFunction1()" id="btn"  class="BLACC-button BLACC-text-yellow  BLACC-border BLACC-black BLACC-right" 
-style="width: 150px; height: 50px; font-family: Times;"> 
-	Search BLACChole</button>
-
-<p style="color: white;" id="demo"></p>
-<br>
-<p style="color: red;" id="message"></p>
-
 
 <script>
 
@@ -1649,112 +1604,10 @@ function myFunction1() {
   switch(fruits) {
                                                      
     //SIMPLE RESPONSES  {
-        //BLACC Music  {
+        //VIDEOS  {
     case "Memo By Young Thug":
     text = "Searching....!";
-    window.open("../../BLACChole/BLACC_Music/Memo_By_Young_Thug.html", target="_self", "../../BLACChole/BLACC_Music/Memo_By_Young_Thug.html", "width=500,height=500");
-    break;
- //}
-        //OneiroNet  {
-    case "Memo By Young Thug":
-    text = "Searching....!";
-    window.open("../../BLACChole/OneiroNet/Memo_By_Young_Thug.html", target="_self", "../../BLACChole/OneiroNet/Memo_By_Young_Thug.html", "width=500,height=500");
-    break;
- //}
-        //Website Inquiry  {
-    case "Memo By Young Thug":
-    text = "Searching....!";
-    window.open("../../BLACChole/Website_Inquiry/Memo_By_Young_Thug.html", target="_self", "../../BLACChole/Website_Inquiry/Memo_By_Young_Thug.html", "width=500,height=500");
-    break;
- //}
-        //Pharaoh History  {
-    case "Memo By Young Thug":
-    text = "Searching....!";
-    window.open("../../BLACChole/Pharaoh_History/Memo_By_Young_Thug.html", target="_self", "../../BLACChole/Pharaoh_History/Memo_By_Young_Thug.html", "width=500,height=500");
-    break;
- //}
-        //BLACC Ark  {
-    case "Memo By Young Thug":
-    text = "Searching....!";
-    window.open("../../BLACChole/BLACC_Ark/Memo_By_Young_Thug.html", target="_self", "../../BLACChole/BLACC_Ark/Memo_By_Young_Thug.html", "width=500,height=500");
-    break;
- //}
-        //Vital Mathematics  {
-    case "Memo By Young Thug":
-    text = "Searching....!";
-    window.open("../../BLACChole/Vital_Mathematics/Memo_By_Young_Thug.html", target="_self", "../../BLACChole/Vital_Mathematics/Memo_By_Young_Thug.html", "width=500,height=500");
-    break;
- //}
-        //Asclepieion Of BLACC  {
-    case "Memo By Young Thug":
-    text = "Searching....!";
-    window.open("./BLACChole/Asclepieion_Of_BLACC/Memo_By_Young_Thug.html", target="_self", "./BLACChole/Asclepieion_Of_BLACC/Memo_By_Young_Thug.html", "width=500,height=500");
-    break;
- //}
-        //BLACC Connect  {
-    case "Memo By Young Thug":
-    text = "Searching....!";
-    window.open("../../BLACChole/BLACC_Connect/Memo_By_Young_Thug.html", target="_self", "../../BLACChole/BLACC_Connect/Memo_By_Young_Thug.html", "width=500,height=500");
-    break;
- //}
-        //BLACC Tele  {
-    case "Memo By Young Thug":
-    text = "Searching....!";
-    window.open("../../BLACChole/BLACC_Tele/Memo_By_Young_Thug.html", target="_self", "../../BLACChole/BLACC_Tele/Memo_By_Young_Thug.html", "width=500,height=500");
-    break;
- //}
-        //Blacklining  {
-    case "Memo By Young Thug":
-    text = "Searching....!";
-    window.open("../../BLACChole/Blacklining/Memo_By_Young_Thug.html", target="_self", "../../BLACChole/Blacklining/Memo_By_Young_Thug.html", "width=500,height=500");
-    break;
- //}
-        //Eye  {
-    case "Memo By Young Thug":
-    text = "Searching....!";
-    window.open("../../BLACChole/Eye/Memo_By_Young_Thug.html", target="_self", "../../BLACChole/Eye/Memo_By_Young_Thug.html", "width=500,height=500");
-    break;
- //}
-        //New Nexxus  {
-    case "Memo By Young Thug":
-    text = "Searching....!";
-    window.open("../../BLACChole/New_Nexxus/Memo_By_Young_Thug.html", target="_self", "../../BLACChole/New_Nexxus/Memo_By_Young_Thug.html", "width=500,height=500");
-    break;
- //}
-        //NFT  {
-    case "Memo By Young Thug":
-    text = "Searching....!";
-    window.open("../../BLACChole/NFT/Memo_By_Young_Thug.html", target="_self", "../../BLACChole/NFT/Memo_By_Young_Thug.html", "width=500,height=500");
-    break;
- //}
-        //Audio  {
-    case "Memo By Young Thug":
-    text = "Searching....!";
-    window.open("../../BLACChole/Audio/Memo_By_Young_Thug.html", target="_self", "../../BLACChole/Audio/Memo_By_Young_Thug.html", "width=500,height=500");
-    break;
- //}
-        //Videos  {
-    case "Memo By Young Thug":
-    text = "Searching....!";
-    window.open("../../BLACChole/Videos/Memo_By_Young_Thug.html", target="_self", "../../BLACChole/Videos/Memo_By_Young_Thug.html", "width=500,height=500");
-    break;
- //}
-        //Music  {
-    case "Memo By Young Thug":
-    text = "Searching....!";
-    window.open("../../BLACChole/Music/Memo_By_Young_Thug.html", target="_self", "../../BLACChole/Music/Memo_By_Young_Thug.html", "width=500,height=500");
-    break;
- //}
-        //Movies  {
-    case "Memo By Young Thug":
-    text = "Searching....!";
-    window.open("../../BLACChole/Movies/Memo_By_Young_Thug.html", target="_self", "../../BLACChole/Movies/Memo_By_Young_Thug.html", "width=500,height=500");
-    break;
- //}
-        //Categories  {
-    case "Memo By Young Thug":
-    text = "Searching....!";
-    window.open("../../BLACChole/Categories/Memo_By_Young_Thug.html", target="_self", "../../BLACChole/Categories/Memo_By_Young_Thug.html", "width=500,height=500");
+    window.open("./BLACChole/BLACC_Music/Memo_By_Young_Thug.html", target="_self", "./BLACChole/BLACC_Music/Memo_By_Young_Thug.html", "width=500,height=500");
     break;
  //}
  //}
@@ -1772,7 +1625,6 @@ function myFunction1() {
 }
 
 </script>
-
 		
 		<script>
 			/* JS comes here */
@@ -1812,7 +1664,6 @@ function myFunction1() {
 	        }
 		</script>
 		
-
 <script>
 var input = document.getElementById("output");
 input.addEventListener("keypress", function(event) {
@@ -1822,27 +1673,18 @@ input.addEventListener("keypress", function(event) {
   }
 });
 </script>
-
-
 <!-- Navbar on small screens (remove the onclick attribute if you want the navbar to always show on top of the content when clicking on the links) -->
-<div id="navDemo" class="BLACC-bar-block BLACC-black BLACC-hide BLACC-hide-large BLACC-hide-medium BLACC-top" style="margin-top:46px">
-  <a href="./Website_Template_Music_Merch.html" class="BLACC-bar-item BLACC-button BLACC-padding-large" onclick="myFunction()">AUDIO</a>
-	
-  <a href="./Website_Template_Music_Music.html" class="BLACC-bar-item BLACC-button BLACC-padding-large" onclick="myFunction()">VIDEOS</a>
-	
-  <a href="./Website_Template_Music_Videos.html" class="BLACC-bar-item BLACC-button BLACC-padding-large" onclick="myFunction()">MUSIC</a>
-</div>
 
 <!-- Page content -->
-<div class="BLACC-content" style="max-width:2000px;margin-top:46px">
+<div class="BLACC-content">
     
       <!-- The Band Section -->
   <div class="BLACC-container BLACC-content BLACC-center BLACC-padding-64" style="max-width:800px" id="band">
-        <hr style="border-color:dodgerwhite;">
+        <hr style="border-color:dodgerblue;">
 
 
-<header style="font-size:196px; font-family: Vivaldi; color: dodgerwhite; text-align: center;">
-    <h1 style="font-size:196px; font-family: Vivaldi; color: dodgerwhite; text-align: center; text-decoration: blink" class="BLACC-xxlarge BLACC-text-yellow"><img src="../../BLACCimages/BLACChole_Icon.png" alt="Pineapple" style="width:170px;height:170px;margin-right:15px; float: left;"><span style="font-size:85px; color: dodgerwhite">BLACChole</span> <span class="BLACC-padding BLACC-white" style="font-size:20px; color: white;"><b style="color: dodgerwhite;">BC</b></span> </h1>
+<header style="font-size:196px; font-family: Vivaldi; color: dodgerblue; text-align: center;">
+    <h1 style="font-size:196px; font-family: Vivaldi; color: dodgerblue; text-align: center; text-decoration: blink" class="BLACC-xxlarge BLACC-text-dodgerblue"><span style="font-size:45px; color: dodgerblue">BLACChole</span> <span class="BLACC-padding BLACC-white" style="font-size:20px; color: white;"><b style="color: dodgerblue;">BC</b></span> </h1>
     <p class="BLACC-opacity" style="font-size:12px;"><i>Entertainment Meant For Black Excellence </i></p>
 
 </header>
@@ -1850,64 +1692,63 @@ input.addEventListener("keypress", function(event) {
 
 
 
-	<hr style="border-color:dodgerwhite;">
-	<br>
+	<hr style="border-color:dodgerblue;">
+
     
-    
-        <!-- Category - Tutorial-->
+<!-- Category - B.L.A.C.C. Learning-->
 
 
-    <br>
-    <h2 style="text-align: left; color: white;"><b>Category - Tutorial</b></h2>
+    <h2 style="text-align: left; color: dodgerblue;"><b>Tutorial : Installing B.L.A.C.C. App Store</b></h2>
     <p class="BLACC-justify">  </p>
-    <hr style="border-color:white;">
     
-    <div class="BLACC-row BLACC-padding-32">
-      <div class="BLACC-third" style="color: white;">
-        <img src="../../BLACCimages/BC.jpg" class="BLACC-round BLACC-margin-bottom" alt="Random Name" style="width:80%">
-       <p style="font-size: 16px; font-family: Georgia;"><i><a href="./BLACC_App_Store_Tutorial.html" target="_self" style="text-decoration: none; color: white;">...Installing B.L.A.C.C. APP Store...</a></i></p>
-      </div>
-      
-      
-      
-      <div class="BLACC-third" style="color: white;">
-        <img src="../../BLACCimages/BC.jpg" class="BLACC-round BLACC-margin-bottom" alt="Random Name" style="width:80%">
-       <p style="font-size: 16px; font-family: Georgia;"><i><a href="./Login.html" target="_self" style="text-decoration: none; color: white;"> ...(A.S.E.) - Login...</a></i></p>
-      </div>
-      
-      
-      <div class="BLACC-third" style="color: white;">
-        <img src="../../BLACCimages/BC.jpg" class="BLACC-round" alt="Random Name" style="width:90%">
-        <p style="font-size: 16px; font-family: Georgia;"><i><a href="./ASE_Book_Part_1.html" target="_self" style="text-decoration: none; color: white;"> ...(A.S.E.) - A.S.E. Book Part 1...</a></i></p>
-      </div>
-      
-    </div>
-<br>
-<br>  
-    <div class="BLACC-row BLACC-padding-32">
-      <div class="BLACC-third" style="color: white;">
-        <img src="../../BLACCimages/BC.jpg" class="BLACC-round BLACC-margin-bottom" alt="Random Name" style="width:80%">
-       <p style="font-size: 16px; font-family: Georgia;"><i><a href="./ASE_Book_Part_2.html" target="_self" style="text-decoration: none; color: white;"> ...(A.S.E.) - A.S.E. Book Part 2...</a></i></p>
-      </div>
-      
-      
-      
-      <div class="BLACC-third" style="color: white;">
-        <img src="../../BLACCimages/BC.jpg" class="BLACC-round BLACC-margin-bottom" alt="Random Name" style="width:80%">
-       <p style="font-size: 16px; font-family: Georgia;"><i><a href="./Typing_Functionality.html" target="_self" style="text-decoration: none; color: white;"> ...(A.S.E.) - Typing Functionality...</a></i></p>
-      </div>
-      
-      
-      <div class="BLACC-third" style="color: white;">
-        <img src="../../BLACCimages/BC.jpg" class="BLACC-round" alt="Random Name" style="width:90%">
-        <p style="font-size: 16px; font-family: Georgia;"><i><a href="./Voice_Functionality.html" target="_self" style="text-decoration: none; color: white;"> ...(A.S.E.) - Voice Functionality...</a></i></p>
-      </div>
-      
-    </div>
-  </div>
+        <hr style="border-color:dodgerblue;">
+<video width="750" autoplay loop>
+  <source src="./Installing_BLACC_App_Store.mp4" type="video/mp4">
+  <source src="./Installing_BLACC_App_Store.MPEG" type="video/MPEG">
+  </video>    
+  <button onclick="lesson()">Start Audio</button>
+  
+  <script>
+      function lesson() {
+          var msg = new SpeechSynthesisUtterance();
+msg.text = "My name is Arthenya. I am called an Ace; Artificial Support Engine. I am Mr. Carpenter's Ace. I will be giving you the tutorial on how to utilize Black Corporation for max potentiality. If you view this from your phone, then that is great. But, if you are viewing this from a computer, then be prepared to switch to a mobile device in the near future. Each tutorial there will be video that will automatically start, please watch the audioless video. Follow the visual instructions along with my verbal instruction. First you will want to download the Black App Store. Either download the Andriod or I Phone version depending on your device, just scan the correct Q R code. Two devices may be necessary, one to show the code and the other that can scan the code. Make sure the device that is scanning the Q R code is the device you want the appilication. To locate the Q R code please go to blacc app store dot b l a c c c o r p dot com.";
+window.speechSynthesis.speak(msg);
+      }
+  </script>
+    <hr style="border-color:dodgerblue;">
+        <a href="https://blaccenterprise.github.io/blaccstore/BLACC_App_Store/BLACC_Corporation_Application.html" class="BLACC-justify" style="color:white;">blaccappstore.blacccorp.com</a>
+        <p class="BLACC-justify" style="color:white;"> Text-Translation : Tutorail : Installing B.L.A.C.C. App Store, | 
+        <br>
+        <br>
+        Arthenya : My name is Arthenya. I am called an Ace; Artificial Support Engine. I am Mr. Carpenter's Ace. 
+        I will be giving you the tutorial on how to utilize Black Corporation for max potentiality. 
+        If you view this from your phone, then that is great. But, if you are viewing this from a computer, 
+        then be prepared to switch to a mobile device in the near future. 
+        Each tutorial there will be video that will automatically start, please watch the audioless video.
+        Follow the visual instructions along with my verbal instruction. 
+        First you will want to download the Black App Store. 
+        Either download the Andriod or I Phone version depending on your device, 
+        just scan the correct Q R code. Two devices may be necessary, 
+        one to show the code and the other that can scan the code. 
+        Make sure the device that is scanning the Q R code is the device you want the appilication. 
+        To locate the Q R code please go to blaccappstore.blacccorp.com
+        <br>        <br>
 
+        Released on 2025, Video comes from the intellectual property created by Stevie W. Carpenter. </p>
+        <p class="BLACC-justify" style="color:white;"> Restrictions : Video is only for watching and informative purposes. Copying and Selling of Video is prohibited. Violation of restriction will result in arbitration by B.L.A.C.C. Corporation and Artist. </p>
+        <p class="BLACC-justify" style="color:white;"> Credit : Videos - Introduction : A.S.E. - Typing Functionality, Created By Stevie W. Carpenter (Artist). Platform Design - BLACChole, Created By Stevie W. Carpenter. </p>
+<hr>
 <br>
-    <hr style="border-color:white;">
+<br>
+
+
+   <a href="./BLACChole_ASE_Home.html"><button>Back To A.S.E.</button></a>
+   
+   <br>
+<br>
+<hr>
+   The Contact Section -->
+
 <!-- End Page Content -->
 </div>
 
@@ -1919,63 +1760,43 @@ input.addEventListener("keypress", function(event) {
 <br>
 
 
--->
 
 
-<br><br>
 
-<footer class="BLACC-center">
-    
-<a href="../Website_Template_BLACC_Corporation_Computer_Science_Project_BLACChole.html" title="B.L.A.C.C. App Store"><i><img src="../../BLACCimages/BLACChole_Favicon.jpg"></i></a>
-<a href="../BLACC_Profile/Login.html" title="B.L.A.C..C. Profile"><button class="btn BLACC-margin-right"><i class="fa fa-user-circle"></i></button></a>
-<!--
-<a href="../BLACC_Profile/Login.html" title="B.L.A.C..C. Messaging"><button class="btn"><i class="fa fa-comments"></i></button></a>
--->
-<a href="./Support.html" title="B.L.A.C..C. Support"><button class="btn BLACC-margin-right"><i class="fa fa-headphones"></i></button></a>
-
-</footer>
-
-<br>
-<hr>
 
 <!-- Footer -->
 
 <footer class="BLACC-container BLACC-black">
-<p> Made By B.L.A.C.C. Corportation  (c) 2024 - 2025</p>
+<p> Made By B.L.A.C.C. Corportation  (c) 2024</p>
 <br>
 <hr>
 <br>
   <ul class="lileft">
- <li><a class="BLACC-hover-yellow" href="../../BLACC_Corporation/index.html">B.L.A.C.C. Corporation </a>
+ <li><a href="https://blaccenterprise.github.io/blacccorporation/index.html">B.L.A.C.C. Corporation </a>
     </ul>
 
 	 
  <ul class="lileft">
- <li><a class="BLACC-hover-yellow"  href="../../BLACC_Search/BLACC_Search.html">B.L.A.C.C. Search</a>
+ <li><a href="https://www.blacccorporation.com">Support</a>
   </ul>
   
   
  <ul class="lileft">
- <li><a class="BLACC-hover-yellow"  href="../../BLACC_Corporation/B.L.A.C.C.CorporationTERMSANDCONDITIONS.html" target="_self">Terms</a>
+ <li><a href="https://blaccenterprise.github.io/blacccorporation/B.L.A.C.C.CorporationTERMSANDCONDITIONS.html" target="_blank">Terms</a>
  </ul>
 
  
  <ul class="lileft">
- <li><a class="BLACC-hover-yellow"  href="../../BLACC_Corporation/PRIVACYPOLICYFORB.L.A.C.C.CORPORATION.html" target="_self">Privacy Policy</a>
+ <li><a href="https://blaccenterprise.github.io/blacccorporation/PRIVACYPOLICYFORB.L.A.C.C.CORPORATION.html" target="_blank">Privacy Policy</a>
  </ul>
  
  <ul class="lileft">
-<li><a class="BLACC-hover-yellow"  href="../../BLACC_Corporation/Subscribe_Form.html">Subscribe</a>
+<li><a href="https://blaccenterprise.github.io/blacccorporation/Subscribe_Form.html">Subscribe</a>
 </ul>
 
  
  <ul class="lileft">
-  <li><a class="BLACC-hover-yellow"  href="../../BLACC_Connect/Home_Page.html">B.L.A.C.C. Connect</a>
-</ul>
-
- 
- <ul class="lileft">
-  <li><a class="BLACC-hover-yellow"  href="../../BLACC_App_Store/BLACC_Store_App.html">B.L.A.C.C. App Store</a>
+  <li><a href="https://blaccenterprise.github.io/blaccconnect/Level_1_Access/United_States_Selection_Level_1_Access.html">B.L.A.C.C. Connect</a>
 </ul>
 
  
@@ -1985,9 +1806,8 @@ input.addEventListener("keypress", function(event) {
 
 
 
-  <p style="text-align: right;">Powered by <a href="../../BLACC_Corporation/Website_Template_BLACC_Corporation_Computer_Science_Project_BLACC_Server.html" title="B.L.A.C.C." class="BLACC-hover-text-green BLACC-hover-yellow">B.L.A.C.C. Server</a>~Created by <a href="../../BLACC_Corporation/index.html" title="B.L.A.C.C."  class="BLACC-hover-text-green BLACC-hover-yellow">B.L.A.C.C. Corporation</a></p>
+  <p style="text-align: right;">Powered by <a href="https://blaccenterprise.github.io/blacccorporation/Website_Template_BLACC_Corporation_Computer_Science_Project_BLACC_Server.html" title="B.L.A.C.C." class="BLACC-hover-text-green">B.L.A.C.C. Server</a>~Created by <a href="https://blaccenterprise.github.io/blacccorporation/index.html" title="B.L.A.C.C."  class="BLACC-hover-text-green">B.L.A.C.C. Corporation</a></p>
 </footer>
-
 
 
 
