@@ -1,0 +1,149 @@
+  <!DOCTYPE txt>
+<html>
+<head>
+      <title> Coding Search Engine - Forms </title>
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+	body {
+		    background-image: url('./Circle_Background.jpg');
+
+		}
+* {
+  box-sizing: border-box;
+}
+
+#myInput {
+  background-image: url('/css/searchicon.png');
+  background-position: 10px 12px;
+  background-repeat: no-repeat;
+  width: 100%;
+  font-size: 16px;
+  padding: 12px 20px 12px 40px;
+  border: 1px solid #ddd;
+  margin-bottom: 12px;
+}
+
+#myUL {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+#myUL li a {
+  border: 1px solid #ddd;
+  margin-top: -1px; /* Prevent double borders */
+  background-color: #f6f6f6;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 18px;
+  color: black;
+  display: block
+}
+
+#myUL li a:hover:not(.header) {
+  background-color: #eee;
+}
+
+
+
+.previous {
+  background-color: #f1f1f1;
+  color: black;
+}
+
+.next {
+  background-color: #04AA6D;
+  color: white;
+}
+
+.round {
+  border-radius: 50%;
+}
+</style>
+</head>
+<body>
+
+	<a href="./Coding_Filter.html"><button  class="previous round" style="width:50px; height:50px; font-size: 24px;">&#8249;
+</button></a>
+
+<h1 style="color: white;">Coding Search Engine - Forms</h1>
+
+<input type="text" id="myInput" onkeyup="myFunction()" placeholder="Search for names.." title="Type in a name">
+
+<ul id="myUL">
+  <li><a href="./Login_Form.html">Login Form</a></li>
+
+  <li><a href="./Signup_Form.html">Signup Form</a></li>
+
+  <li><a href="./Check_out_Form.html">Checkout Form</a></li>
+
+  <li><a href="./Contact_Form.html">Contact Form</a></li>
+
+  <li><a href="./Responsive_Login_Form.html">Social Login Form</a></li>
+
+  <li><a href="./Register.html">Register Form</a></li>
+
+  <li><a href="./Register_Form_With_Icon.html">Form With Icons</a></li>
+
+  <li><a href="./Newsletter_Form.html">Newsletter</a></li>
+
+  <li><a href="./Stacked_Form.html">Stacked Form</a></li>
+
+  <li><a href="./Responsive_Form.html">Responsive Form</a></li>
+
+  <li><a href="./Popup_Form.html">Popup Form</a></li>
+
+  <li><a href="./Responsive_Inline_Form.html">Inline Form</a></li>
+
+  <li><a href="./Clear_Input.html">Clear Input Field</a></li>
+
+  <li><a href="./Hide_Arrows.html">Hide Number Arrows</a></li>
+
+  <li><a href="./Copy_To_Clipboard.html">Copy Text To Clipboard</a></li>
+
+  <li><a href="./Animated_Search.html">Animated Search</a></li>
+
+  <li><a href="./Search_Button.html">Search Button</a></li>
+
+  <li><a href="./Fullscreen_Search.html">Fullscreen Search</a></li>
+
+  <li><a href="./Input_Field_In_Navbar.html">Input Field In Navbar</a></li>
+
+  <li><a href="./Login_Form_In_Navbar.txt">Login Form In Navbar</a></li>
+
+  <li><a href="./Custom_Checkbox.html">Custom Checkbox/Radio</a></li>
+
+  <li><a href="./Custom_Select.html">Custom Select</a></li>
+
+  <li><a href="./Toggle_Switch.html">Toggle Switch</a></li>
+
+  <li><a href="./Show_Pswd.html">Toggle Password Visibility</a></li>
+
+  <li><a href="./Autocomplete.html">Autocomplete</a></li>
+  
+  <li><a href="./File_Upload.html">File Upload Button</a></li>
+
+</ul>
+
+<script>
+function myFunction() {
+    var input, filter, ul, li, a, i, txtValue;
+    input = document.getElementById("myInput");
+    filter = input.value.toUpperCase();
+    ul = document.getElementById("myUL");
+    li = ul.getElementsByTagName("li");
+    for (i = 0; i < li.length; i++) {
+        a = li[i].getElementsByTagName("a")[0];
+        txtValue = a.textContent || a.innerText;
+        if (txtValue.toUpperCase().indexOf(filter) > -1) {
+            li[i].style.display = "";
+        } else {
+            li[i].style.display = "none";
+        }
+    }
+}
+</script>
+
+</body>
+</html>
