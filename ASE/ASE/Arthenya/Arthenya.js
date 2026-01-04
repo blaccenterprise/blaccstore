@@ -1087,25 +1087,25 @@
                             case "Open your notebook":
                                 text = "Welcome";
                                 ASE.say("Welcome");
-                                window.open("https://blaccenterprise.github.io/blacc_profile/Contact_Card/ASE_Notebook.html", "https://blaccenterprise.github.io/blacc_profile/Contact_Card/ASE_Notebook.html", "width=400,height=400");
+                                window.open("https://blaccenterprise.github.io/blacc_profile/Contact_Card/Arthenya_Notebook.html", "https://blaccenterprise.github.io/blacc_profile/Contact_Card/Arthenya_Notebook.html", "width=400,height=400");
                                 break;
 
                             case "Open your Notebook":
                                 text = "Welcome";
                                 ASE.say("Welcome");
-                                window.open("https://blaccenterprise.github.io/blacc_profile/Contact_Card/ASE_Notebook.html", "https://blaccenterprise.github.io/blacc_profile/Contact_Card/ASE_Notebook.html", "width=400,height=400");
+                                window.open("https://blaccenterprise.github.io/blacc_profile/Contact_Card/Arthenya_Notebook.html", "https://blaccenterprise.github.io/blacc_profile/Contact_Card/Arthenya_Notebook.html", "width=400,height=400");
                                 break;
 
                             case "Open my notebook":
                                 text = "Welcome";
                                 ASE.say("Welcome");
-                                window.open("https://blaccenterprise.github.io/blacc_profile/Contact_Card/ASE_Notebook.html", "https://blaccenterprise.github.io/blacc_profile/Contact_Card/ASE_Notebook.html", "width=400,height=400");
+                                window.open("https://blaccenterprise.github.io/blacc_profile/Contact_Card/Arthenya_Notebook.html", "https://blaccenterprise.github.io/blacc_profile/Contact_Card/Arthenya_Notebook.html", "width=400,height=400");
                                 break;
 
                             case "Open my Notebook":
                                 text = "Welcome";
                                 ASE.say("Welcome");
-                                window.open("https://blaccenterprise.github.io/blacc_profile/Contact_Card/ASE_Notebook.html", "https://blaccenterprise.github.io/blacc_profile/Contact_Card/ASE_Notebook.html", "width=400,height=400");
+                                window.open("https://blaccenterprise.github.io/blacc_profile/Contact_Card/Arthenya_Notebook.html", "https://blaccenterprise.github.io/blacc_profile/Contact_Card/Arthenya_Notebook.html", "width=400,height=400");
                                 break;
                             //}
             //Shorthand - Written Language  {
@@ -1113,13 +1113,13 @@
                             case "open your notebook":
                                 text = "Welcome";
                                 ASE.say("Welcome");
-                                window.open("https://blaccenterprise.github.io/blacc_profile/Contact_Card/ASE_Notebook.html", "https://blaccenterprise.github.io/blacc_profile/Contact_Card/ASE_Notebook.html", "width=400,height=400");
+                                window.open("https://blaccenterprise.github.io/blacc_profile/Contact_Card/Arthenya_Notebook.html", "https://blaccenterprise.github.io/blacc_profile/Contact_Card/Arthenya_Notebook.html", "width=400,height=400");
                                 break;
 
                             case "open my notebook":
                                 text = "Welcome";
                                 ASE.say("Welcome");
-                                window.open("https://blaccenterprise.github.io/blacc_profile/Contact_Card/ASE_Notebook.html", "https://blaccenterprise.github.io/blacc_profile/Contact_Card/ASE_Notebook.html", "width=400,height=400");
+                                window.open("https://blaccenterprise.github.io/blacc_profile/Contact_Card/Arthenya_Notebook.html", "https://blaccenterprise.github.io/blacc_profile/Contact_Card/Arthenya_Notebook.html", "width=400,height=400");
                                 break;
                             //}
             //Default - Written Language  {
@@ -1127,13 +1127,13 @@
                             case "Open Your Notebook":
                                 text = "Welcome";
                                 ASE.say("Welcome");
-                                window.open("https://blaccenterprise.github.io/blacc_profile/Contact_Card/ASE_Notebook.html", "https://blaccenterprise.github.io/blacc_profile/Contact_Card/ASE_Notebook.html", "width=400,height=400");
+                                window.open("https://blaccenterprise.github.io/blacc_profile/Contact_Card/Arthenya_Notebook.html", "https://blaccenterprise.github.io/blacc_profile/Contact_Card/Arthenya_Notebook.html", "width=400,height=400");
                                 break;
 
                             case "Open My Notebook":
                                 text = "Welcome";
                                 ASE.say("Welcome");
-                                window.open("https://blaccenterprise.github.io/blacc_profile/Contact_Card/ASE_Notebook.html", "https://blaccenterprise.github.io/blacc_profile/Contact_Card/ASE_Notebook.html", "width=400,height=400");
+                                window.open("https://blaccenterprise.github.io/blacc_profile/Contact_Card/Arthenya_Notebook.html", "https://blaccenterprise.github.io/blacc_profile/Contact_Card/Arthenya_Notebook.html", "width=400,height=400");
                                 break;
                             //}
                             //}
